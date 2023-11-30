@@ -17,7 +17,10 @@
     "@iconify/json": "^2.2.147",
     "@skeletonlabs/skeleton": "2.5.1",
     "@skeletonlabs/tw-plugin": "0.2.4",
+    "@smui-extra/autocomplete": "^7.0.0-beta.15",
     "@smui/button": "^7.0.0-beta.15",
+    "@smui/circular-progress": "^7.0.0-beta.15",
+    "@smui/dialog": "^7.0.0-beta.15",
     "@smui/drawer": "^7.0.0-beta.15",
     "@smui/list": "^7.0.0-beta.15",
     "@sveltejs/adapter-auto": "^2.0.0",
@@ -37,7 +40,11 @@
   },
   "type": "module",
   "dependencies": {
-    "firebase": "^10.6.0",
-    "svelte-ripple-action": "^1.0.4"
+    "@smui-extra/accordion": "^7.0.0-beta.15",
+    "@smui/textfield": "^7.0.0-beta.15",
+    "axios": "^1.6.2",
+    "firebase": "^9.23.0",
+    "svelte-ripple-action": "^1.0.4",
+    "sveltefire": "^0.4.2"
   }
 }
