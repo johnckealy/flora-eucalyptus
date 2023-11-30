@@ -12,8 +12,8 @@
 	let selectedPlantPhoto = null;
 
 
-	// const baseUrl = 'https://api.flora.works/v1';
-	const baseUrl = 'http://localhost:8000';
+	const baseUrl = 'https://api.flora.works/v1';
+	// const baseUrl = 'http://localhost:8000';
 
 	let userPlants = [];
 	let plants = [];

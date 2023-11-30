@@ -3,12 +3,24 @@
 	import { signInWithEmailAndPassword } from 'firebase/auth';
 	import Button, { Label } from '@smui/button';
 	import Textfield from '@smui/textfield';
+	import { SignedIn } from 'sveltefire';
 
 	let email = '';
 	let password = '';
 </script>
 
-<h1>This is the home page</h1>
+
+<SignedIn let:user let:signOut>
+	<div class="text-black flex flex-col m-20">
+		<h1>Hello {user.email}</h1>
+		<div class="p-3">
+			<span>Go to:</span>
+			<a class="p-1" href="/users">Users</a> /
+			<a class="p-1" href="/plants">Plants</a>
+		</div>
+		</div>
+</SignedIn>
+
 
 <SignedOut let:auth>
 	<div class="flex justify-center">
