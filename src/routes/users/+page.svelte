@@ -4,12 +4,11 @@
 	import axios from 'axios';
 	import { auth } from '$lib/firebase'; // your firebase auth instance
 	import { userStore } from 'sveltefire';
-	import Accordion, { Panel, Header, Content } from '@smui-extra/accordion';
 
 	const user = userStore(auth);
 
-	// const baseUrl = 'https://api.flora.works/v1';
-	const baseUrl = 'http://localhost:8000';
+	const baseUrl = 'https://api.flora.works/v1';
+	// const baseUrl = 'http://localhost:8000';
 
 	let users = [];
 
